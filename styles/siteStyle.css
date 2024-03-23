@@ -1,0 +1,34 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.1em; /* Updated */
+    color: tomato;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.sitetext {
+    text-align: right !important;
+}
