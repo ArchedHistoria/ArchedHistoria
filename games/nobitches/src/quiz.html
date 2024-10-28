@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Bitches? Quiz Page</title>
+    <link rel="stylesheet" href="../css/anims.css">
+    <style>
+        body {
+            background-color: whitesmoke;
+            text-align: center;
+        }
+
+        #question {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        .option {
+            margin: 10px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border: none;
+            cursor: pointer;
+        }
+
+        .option:hover {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>No Bitches? Quiz up <i id="whyno">motherfucker!</i></h1>
+
+    <div id="question"></div>
+    <div id="options"></div>
+    <button type="button" id="nextbtn" style="display:none;">Next Question</button> <!-- Button is initially hidden -->
+
+    <script src="../js/questions.js"></script>
+
+    <a href="../src/index.html"><i id="bigsmall">HOME</i></a>
+</body>
+
+</html>

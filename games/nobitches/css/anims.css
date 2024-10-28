@@ -1,0 +1,80 @@
+#whyno {
+    font: 3em;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: pink;
+    }
+
+    30% {
+        color: green;
+    }
+
+    40% {
+        color: lime;
+    }
+
+    50% {
+        color: yellow;
+    }
+
+    60% {
+        color: orange;
+    }
+
+    70% {
+        color: blue;
+    }
+
+    80% {
+        color: indigo;
+    }
+
+    90% {
+        color: crimson;
+    }
+
+    100% {
+        color: violet;
+    }
+}
+
+#bigsmall {
+    animation: sizechange 1s infinite, color-change;
+}
+
+@keyframes sizechange {
+    0% {
+        font-size: small;
+    }
+
+    50% {
+        font-size: large;
+    }
+
+    100% {
+        font-size: small;
+    }
+}
+
+.btnBig {
+    animation: sizechange 1s infinite;
+}
+
+#nextQuestion {
+    animation: sizechange 1s infinite;
+}
+
+#nextbtn {
+    align-self: center;
+}
